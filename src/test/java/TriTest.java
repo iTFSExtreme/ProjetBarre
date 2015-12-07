@@ -33,9 +33,12 @@ public class TriTest {
 	 }*/
 	
 	@Test
-	public void testAfficher() throws Exception
+	public void testTri_Afficher() throws Exception
 	{
-			t2.afficher();	
+			t2.afficher();
+			System.out.println();
+			t2.Trier();
+			t2.afficher();
 	}
 	
 	@Test(expected = Exception.class)
